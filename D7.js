@@ -88,6 +88,11 @@ console.log(somma);
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
 
+const stringhe = ["epicode", "is", "great"];
+
+const stringslengths = stringhe.map
+
+
 /* ESERCIZIO 8 (forEach o for)
   Scrivi una funzione per creare un array contenente tutti i valori DISPARI da 1 a 99.
 */
