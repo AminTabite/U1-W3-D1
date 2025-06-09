@@ -38,11 +38,30 @@ concatstrings("casa", "giardino");
 /* ESERCIZIO 3 (filter)
   Scrivi una funzione per ricavare solamente i valori PARI da un array composto da soli valori numerici
 */
+const arraynumeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+const numeripari = arraynumeri.filter(function(numeri) {
+  if (numeri % 2 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+});
+
+console.log(numeripari);
 
 /* ESERCIZIO 4 (forEach)
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
+const sommanumeri = [10, 20, 30, 500];
 
+let somma = 0;
+
+sommanumeri.forEach(numeri => {
+  somma += numeri;
+});
+
+console.log(somma);
 /* ESERCIZIO 5 (reduce)
   Scrivi una funzione per sommare i numeri contenuti in un array
 */
